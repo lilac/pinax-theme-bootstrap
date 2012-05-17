@@ -15,6 +15,6 @@
     {% include "profiles/_profile_info.html" %}
     
     {% if is_me %}
-        <p><a href="{% url "profile_edit" %}" class="btn">{% trans "Update my profile" %}</a></p>
+        <p><a href="{% url "profile_edit" %}" class="btn btn-primary">{% trans "Update my profile" %}</a></p>
     {% endif %}
 {% endblock %}
